@@ -1,0 +1,3 @@
+Sprites taken from the game Crush Crush
+
+Ported to AO by: Clopel#1480

@@ -1,0 +1,13 @@
+An update for Neopolitan by Danaquisition. 
+*Note - I am not the original person who made these Neo emotes. I simply edited them so they won't look jarring anymore.
+
+
+
+
+LIST OF THINGS FIXED 
+
+-Removed the (a), (b), and anim folders because they're practically useless.
+-Renamed most emotes to (a)/(b) to compensate for killing the useless folders.
+-Cropped her emotes so they fit properly in AO. She will no longer look tiny as hell.
+-Intro1Full -> Intro
+-Adjusted "Back" so it's not just a boring still.
