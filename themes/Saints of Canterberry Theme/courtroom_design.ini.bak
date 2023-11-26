@@ -1,0 +1,209 @@
+courtroom = 0, 0, 1280, 720
+
+viewport = 4, 4, 512, 384
+chatbox = 4, 232, 512, 156
+ao2_chatbox = 4, 232, 512, 156
+showname = 2, 4, 100, 20
+message = 3, 25, 500, 120
+
+ic_chatlog = 520, 1, 430, 319
+ic_chat_message = 520, 321, 370, 23
+ao2_ic_chat_message = 520, 321, 370, 23
+text_color = 892, 321, 59, 23
+custom_objection = -520, 347, 40, 40
+realization = 564, 347, 40, 40
+mute_button = 608, 347, 40, 40
+emote_dropdown = 652, 345, 238, 23
+pre = 892, 347, 51, 21
+flip = 652, 369, 51, 21
+guard = 892, 369, 61, 21
+
+emotes = 524, 426, 526, 298
+emote_button_spacing = 8, 8
+emote_left = 533, 397, 20, 20
+emote_right = 562, 397, 20, 20
+
+ms_chatlog = 952, 1, 327, 277
+server_chatlog = 952, 1, 327, 277
+ooc_chat_message = 953, 279, 325, 19
+ooc_chat_name = 953, 300, 188, 19
+ooc_toggle = 1142, 300, 133, 19
+
+music_list = 1055, 393, 224, 326
+music_search = 1055, 369, 187, 23
+switch_area_music = 1244, 369, 35, 23
+
+music_label = 1069, 317, 41, 16
+sfx_label = 1069, 334, 21, 16
+blip_label = 1069, 351, 31, 16
+music_slider = 1110, 319, 160, 16
+sfx_slider = 1110, 336, 160, 16
+blip_slider = 1110, 353, 160, 16
+
+change_character = 5, 465, 121, 23
+reload_theme = 5, 490, 101, 23
+call_mod = 5, 515, 71, 23
+settings = 5, 540, 60, 23
+
+hold_it = 10, 403, 76, 28
+objection = 90, 403, 76, 28
+take_that = 170, 403, 76, 28
+
+pair_button = 520, 347, 40, 40
+pair_list = 340, 465, 210, 177
+pair_offset_spinbox = 340, 398, 210, 20
+pair_vert_offset_spinbox = 340, 418, 110, 20
+pair_order_dropdown = 450, 418, 100, 20
+
+not_guilty = 416, 465, 85, 42
+guilty = 416, 512, 85, 42
+
+defense_bar = 200, 590, 150, 39
+prosecution_bar = 200, 640, 150, 39
+pos_dropdown = 416, 435, 84, 20
+defense_plus = 175, 595, 18, 18
+defense_minus = 355, 595, 18, 18
+prosecution_plus = 175, 645, 18, 18
+prosecution_minus = 355, 645, 18, 18
+
+;
+; Evidence system
+;
+
+; **COORDINATE SYSTEM RELATIVE TO "viewport"**
+; x/y coordinates 0,0 will start at top-left of the "viewport" for everything below until specified otherwise.
+; ****
+left_evidence_icon = 13, 13, 70, 70
+right_evidence_icon = 173, 13, 70, 70
+
+; **COORDINATE SYSTEM RELATIVE TO "courtroom"**
+; x/y coordinates 0,0 will start at top-left of the "courtroom" for everything below until specified otherwise.
+; ****
+
+evidence_background = 0, 367, 490, 212
+; **COORDINATE SYSTEM RELATIVE TO "evidence_background"**
+; x/y coordinates 0,0 will start at top-left of the "evidence_background" for everything below until specified otherwise.
+; ****
+evidence_button = 892, 351, 76, 28
+evidence_name = 112, 4, 264, 19
+
+evidence_load = 402, 2, 20, 20
+evidence_save = 424, 2, 20, 20
+evidence_transfer = 446, 2, 20, 20
+evidence_switch = 468, 2, 20, 20
+
+evidence_present = 165, 175, 158, 41
+evidence_buttons = 28, 27, 430, 144
+evidence_button_spacing = 2, 3
+evidence_button_size = 70, 70
+evidence_left = 28, 0, 60, 24
+evidence_right = 400, 0, 60, 24
+
+evidence_overlay = 24, 24, 439, 160
+; **COORDINATE SYSTEM RELATIVE TO "evidence_overlay"**
+; x/y coordinates 0,0 will start at top-left of the "evidence_overlay" (which is parented to "evidence_background") for everything below until specified otherwise.
+; ****
+evidence_delete = 78, 8, 70, 20
+evidence_image_name = 150, 8, 109, 20
+evidence_image_button = 259, 8, 60, 20
+evidence_x = 341, 8, 20, 20
+evidence_ok = 320, 8, 20, 20
+evidence_description = 78, 28, 281, 130
+evidence_edit = 340, 110, 20, 20
+
+
+
+witness_testimony = 80, 540, 85, 42
+cross_examination = 175, 540, 85, 42
+
+
+
+
+; I am sure there are some differences between the 'ao2_' versions and the
+; 'ao2_'-less versions of the IC text display and input, but I do not know
+; what. Still, here you go!
+ao2_ic_chat_name = 420, 405, 78, 23
+
+; A chat indicator alerting us the chat ticker isn't active (text is no longer being processed).
+chat_arrow = 490, 140, 11, 9
+
+; Display the accessible iniswaps on this character (grabbed from iniswaps.ini)
+iniswap_dropdown = 20, 442, 89, 20
+; The button to remove the current iniswap
+iniswap_remove = 5, 442, 20, 20
+
+; Display the accessible sfx on this character (grabbed from soundlist.ini). If none found, courtroom_soundlist.ini will be used.
+sfx_dropdown = 114, 442, 89, 20
+; The button to remove the current iniswap
+sfx_remove = 198, 442, 20, 20
+
+; Display the list of overlay effects accessible
+effects_dropdown = 330, 352, 89, 22
+
+; The size of the icons for dropdown entries
+effects_icon_size = 16, 16
+
+
+; Screenshake
+screenshake = 975, 351, 40, 40
+
+; These two are casing-related inputs.
+; "casing" is a tickbox that toggles whether you should receive case alerts or
+; not (you can set your preferences, and its default value, in the Settings!)
+; "casing_button" is an interface to help you announce a case (you have to be
+; a CM first to be able to announce cases).
+casing = 737, 385, 80, 21
+casing_button = 130, 465, 60, 23
+
+; An in-game tickbox that allows you to set whether your client should show
+; custom shownames where possible, or always keep to character names.
+; This is useful if you suspect someone is impersonating others, for example,
+; and they are using this in combination with ini-swapping to 'duplicate' a
+; character.
+showname_enable = 652, 385, 80, 21
+
+pos_remove = 397, 435, 20, 20
+
+; Additive button
+additive = 652, 370, 80, 21
+
+; These are colours for the various statuses an area can be in.
+area_free_color = 144, 238, 144
+area_lfp_color = 127, 255, 0
+area_casing_color = 255, 215, 0 
+area_recess_color = 255, 246, 143
+area_rp_color = 135, 206, 255
+area_gaming_color = 171, 130, 255
+area_locked_color = 165, 43, 43
+
+; A chat indicator alerting us the chat ticker isn't active (text is no longer being processed).
+chat_arrow = 490, 140, 11, 9
+
+; Preanimation toggle
+pre = 715, 370, 80, 21
+
+; Flip button
+flip = 775, 370, 51, 21
+
+pre_no_interrupt = 792, 385, 80, 21
+
+; The scrolling music name display
+music_display = 130, 500, 224, 26
+; WARNING: music_name x/y coordinates relative to music_display!
+music_name = 0, 0, 224, 26
+
+; Music list state colors
+found_song_color = 193, 160, 2
+missing_song_color = 35, 41, 114
+
+; timers
+; universal
+clock_0 = 90, 2, 70, 14
+; def
+clock_1 = 2, 2, 70, 14
+; pro
+clock_2 = 184, 2, 70, 14
+; def2
+clock_3 = 2, 18, 70, 14
+; pro2
+clock_4 = 184, 18, 70, 14

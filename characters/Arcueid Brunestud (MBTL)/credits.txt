@@ -1,0 +1,3 @@
+Ekey - MBTL.BIN.Tool
+Misthalin - Porting, palette indexing, custom edits
+Rev2H + Dahl - Custom edits
