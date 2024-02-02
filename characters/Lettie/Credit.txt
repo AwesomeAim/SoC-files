@@ -1,0 +1,14 @@
+Lettie Mailer - Professor Layton vs Phoenix Wright: Ace Attorney (3DS)
+
+Credits to:
+
+Racer for sourcing all necessary files.
+Racer for creating "tn" animations and other smooth extras.
+Racer and VV for creating and rendering the animations.
+VV for buttons.
+VV for assembly.
+
+Racer for porting it to AO from TNC/VLS format.
+AwesomeAim for timings and file/ini cleanup.
+
+Enjoy Lettie Mailer!
